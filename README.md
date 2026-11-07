@@ -1,17 +1,60 @@
-# alu_campus_care
+# ALU Campus Care
 
-A new Flutter project.
+ALU Campus Care is a mobile application built with Flutter and Dart to help students at African Leadership University report campus incidents and track their progress.
+
+Students can submit reports, attach images, view their incident statuses, and receive updates. Staff members can manage reported incidents and publish campus announcements.
+
+## Features
+
+**Students**
+- Register, verify email, and log in
+- Submit incidents with optional images
+- View and filter submitted reports
+- Track incident statuses
+- Receive notifications about incident updates
+- View campus announcements
+
+**Staff**
+- Access a separate staff dashboard
+- View and manage reported incidents
+- Update incident statuses
+- Publish campus announcements
+
+## Technologies Used
+
+- Flutter & Dart
+- Firebase Authentication
+- Cloud Firestore
+- Supabase Storage
+- Provider & ChangeNotifier
+- Firebase Admin SDK
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/EKIRABO/alu-campus-care.git
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+2. Open the project:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+cd alu-campus-care
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Configure Firebase and Supabase for your environment.
+
+5. Run the application:
+
+```bash
+flutter run
+```
+
+Developed as part of the Mobile Application Development course at African Leadership University.
